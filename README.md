@@ -34,5 +34,5 @@ In some case, each attribute is binary such that each bit represents the absence
 
 Simply put, the Tanimoto Coefficient uses the ratio of the intersecting set to the union set as the measure of similarity. Represented as a mathematical equation
 
- 
 
+![Tanimoto Fucntion](tani.PNG)
