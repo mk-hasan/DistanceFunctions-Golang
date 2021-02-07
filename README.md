@@ -1,6 +1,11 @@
 # DistanceFunctions-Golang
 Machine Learning Distance Functions implementation with GoLang.
 
+* Euclidean
+* Manhattan
+* Tanimoto
+* HasanDist
+
 ## Euclidean Distance
 Euclidean distance calculates the distance between two real-valued vectors.
 
@@ -22,3 +27,12 @@ Manhattan distance is calculated as the sum of the absolute differences between 
 ```
 ManhattanDistance = sum for i to N sum |v1[i] – v2[i]|
 ```
+
+## Tanimoto Distance / Jaccard
+
+In some case, each attribute is binary such that each bit represents the absence of presence of a characteristic, thus, it is better to determine the similarity via the overlap, or intersection, of the sets.
+
+Simply put, the Tanimoto Coefficient uses the ratio of the intersecting set to the union set as the measure of similarity. Represented as a mathematical equation
+
+ 
+
